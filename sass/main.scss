@@ -1,0 +1,54 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/dropdown';
+
+body {
+  background: url('background.png');
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  nav {
+      ul {
+          display: flex;
+          li {
+              margin-right: 20px;
+          }
+      }
+  }
+  #search-bar {
+      input {
+          padding: 10px;
+      }
+  }
+}
+
+main {
+  padding: 20px;
+  #tendances, #populaires {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+  }
+}
