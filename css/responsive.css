@@ -1,0 +1,55 @@
+@media all and (max-width:1024px) {
+
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+} 
+
+@media all and (max-width:768px) {
+
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+} 
+
+@media all and (max-width:426px) {
+
+    header{
+        flex-direction:column;
+    }
+    .display{
+        gap : 10%;
+    }
+
+    .logo{
+        position:center;
+        display: block;
+        margin: auto;
+        padding:2%;
+    }
+
+    .colonne {
+        flex-direction:column;
+        align-items:center;
+    }
+    #text {
+        width: 100%;
+    }
+
+    #section_recette{
+        width:100%;
+        margin:10%;
+    } 
+
+    #section_ingredients{
+        width:100%;
+        margin:1%;
+    }
+
+    #Newsletter {
+        width: 100%;
+        margin: 1%;
+    }
+}

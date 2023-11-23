@@ -1,0 +1,141 @@
+body {
+    margin : 0;
+    width: 100%;
+    background-color: rgba(36,38,51,1);
+    opacity: 1;
+    background-size: 28px 28px;
+    background-image: url(/image/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgba(36,38,51,1);
+    width: 100%;
+    color: whitesmoke;
+    display : flex;
+    justify-content: space-between;
+
+    .image {
+        width: 215px;
+        height: 80px;
+      }
+      
+      .image .logo {
+        display:flex;
+        justify-content: center;
+        width: 215px;
+        height: 80px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+      }
+
+.box {
+    width: 1728px;
+    height: 60px;
+  }
+  
+  .box .menu {
+    position: fixed;
+    width: 1736px;
+    height: 60px;
+    top: 0;
+  }
+  
+  .box .navbar {
+    position: relative;
+    width: 1728px;
+    height: 60px;
+    background-color: #10141b;
+  }
+  
+  .box .eleves {
+    width: 82px;
+    left: 144px;
+    position: absolute;
+    top: 11px;
+
+  }
+  
+  .box .professeurs {
+    width: 144px;
+    left: 572px;
+    position: absolute;
+    top: 11px;
+   
+  }
+  
+  .box .maisons{
+    width: 105px;
+    left: 1062px;
+    position: absolute;
+    top: 11px;
+   
+  }
+  
+  .box .sorts {
+    width: 70px;
+    left: 1513px;
+    position: absolute;
+    top: 11px;
+   
+  }}
+
+
+
+.boxleft {
+    width: 563px;
+    height: 752px;
+  }
+  
+  .boxleft .left {
+    width: 563px;
+    height: 752px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(67, 60, 135) 0%, rgba(67, 60, 135, 0) 100%);
+  }
+
+.footer {
+    background-color: black;
+    width: 1730px;
+    height: 229px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .footer .overlap-group {
+    position: relative;
+    width: 1728px;
+    height: 229px;
+    background-color: #10141b;
+  }
+  
+  .footer .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    top: 65px;
+    left: 144px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .footer .rs {
+    width: 987px;
+    height: 24px;
+    top: 115px;
+    left: 371px;
+  }
+  
+  .footer .reseau {
+    display: flex;
+    justify-content:center;
+    color:white;
+    width: 666px;
+    height: 30px;
+    top: 73px;
+    left: 531px;
+  }
+  
