@@ -21,34 +21,16 @@
 @import 'components/cover';
 @import 'components/dropdown';
 
-body {
-  background: url('background.png');
+body{
+  background-color: rgba(36,38,51,1);
+
 }
 
-header {
+.header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px;
-  nav {
-      ul {
-          display: flex;
-          li {
-              margin-right: 20px;
-          }
-      }
-  }
-  #search-bar {
-      input {
-          padding: 10px;
-      }
-  }
-}
-
-main {
-  padding: 20px;
-  #tendances, #populaires {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      grid-gap: 20px;
-  }
+  background-color: rgba(36,38,51,1);  
+  font-family: $font-family;
 }
