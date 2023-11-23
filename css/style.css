@@ -15,16 +15,13 @@ header{
     display : flex;
     justify-content: space-between;
 
-    .image {
-        width: 215px;
-        height: 80px;
-      }
+
       
-      .image .logo {
+.logo {
+    margin:40px;
         display:flex;
         justify-content: center;
-        width: 215px;
-        height: 80px;
+        size: 70%;
         top: 0;
         left: 0;
         object-fit: cover;
@@ -84,6 +81,7 @@ header{
 
 
 .boxleft {
+    margin: 40px;
     width: 563px;
     height: 752px;
   }
@@ -95,7 +93,37 @@ header{
     left: 0;
     background: linear-gradient(180deg, rgb(67, 60, 135) 0%, rgba(67, 60, 135, 0) 100%);
   }
+  index.html
+  style.css
+  styleguide.css
 
+  .boxleft .button {
+    position: fixed;
+    width: 352px;
+    height: 74px;
+    top: 0;
+    left: 0;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .boxleft .overlap-group {
+    position: relative;
+    width: 350px;
+    height: 74px;
+    background-color: #433c87;
+    border-radius: 30px;
+  }
+  
+  .boxleft .joinus {
+    position: absolute;
+    width: 204px;
+    height: 50px;
+    top: 17px;
+    left: 73px;
+   
+
+  }
 .footer {
     background-color: black;
     width: 1730px;
