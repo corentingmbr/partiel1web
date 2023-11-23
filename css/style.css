@@ -166,4 +166,9 @@ header{
     top: 73px;
     left: 531px;
   }
+  .lelosange{
+    margin: 40px;
+    display: flex;
+    justify-content: right;
+  }
   
